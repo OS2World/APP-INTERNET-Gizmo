@@ -1,0 +1,16 @@
+VX-REXX OS/2 V2.12 Build B3
+VRX: Window1.VRX
+MacroPath: VRM:E:\program\REXX\Colors
+EXEPath: 
+RunParameters: 
+RunDirectory: F:\program\rexx\Colors
+VRXWindow: __VREMainWindow,1,385,84,903,8000
+VRXWindow: __VRESectionListWindow,1,422,10106,8522,3457
+VRXWindow: __VREToolsWindow,1,10853,7889,1347,5640
+VRXWindow: __VREWindListWindow,1,9672,3457,2650,3150
+UserFile: 1
+UserWindow: Window1,1
+UserWindow: SW_About,1
+UserWindow: SW_Preference,1
+UserWindow: SW_ColorGridTable,1
+UserWindow: SW_Registry,1

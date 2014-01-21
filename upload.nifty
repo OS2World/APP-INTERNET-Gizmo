@@ -1,0 +1,61 @@
+【名    称】  Gismo HTML Color Support Tool
+【登 録 名】  gsm214r.zip
+【制作者名】  木下　健 (KHB03107)
+【掲載者名】   -
+【転載元名】   -
+【動作環境】  OS/2 Warp
+【関連Soft】  VROBJ.DLL
+【掲載月日】
+【作成方法】  unzip gsm214r.zip
+【検索キー】  [1]html [2]homepage [3]color
+------------
+【動作確認】  OS/2 Warp 4
+【ソフト種】  メールウェア
+【転載条件】  事前にメールでご連絡ください。
+============================================================================
+【内容紹介】
+
+１．概要
+
+ GismoはHomepage作成の際にあると便利なColor Coordinating Utilityです。
+
+
+２．実行方法
+
+ 圧縮ファイルには以下のファイルが入っています。
+
+   Gismo.EXE     - Gismo本体
+   color.lst     - Color Nameリスト
+   Gismo.txt     - Readme 1st (English)
+   install.cmd   - 簡易インストーラ
+   readme_e.htm  - Readme file (English)
+   readme_j.htm  - Readme file (Japanese)
+   bmtmicro.txt  - BMT MicroでのShareware登録方法
+   sharereg.htm  - VECTORシェアレジでのShareware登録方法
+   upload.hobbes - Hobbes
+   upload.nifty  - NIFTY-Serve
+
+ 圧縮ファイルを適当なディレクトリにコピーし、解凍します。
+
+ install.cmdを実行するとGismoのオブジェクトがデスクトップに作成されます。
+
+ 本ソフトはVX-REXXで作成されていますので、動作をさせるには別途VROBJ.DLL
+ が必要となります。VROBJ.DLLはNIFTY-Serve FOS2ADVフォーラムのLIB 9や
+ OS/2関連の雑誌に添付のCD-ROMから入手することが出来ます。
+
+
+３．その他
+
+ このソフトはシェアウェアです。登録はNIFTY-Serve送金代行サービス、VECTOR
+ シェアレジ、BMT Microをご利用ください。詳しくは同梱のreadme_j.htmを参照
+ してください。
+
+      □シェアウエア番号：8216
+      □シェアウエア名称：Gismo, HTML Color Coordinating Utility
+
+ ご使用になられたご意見、ご感想を作者までメールしていただければ幸いです。
+ アドレスは kinop@sakura.email.ne.jp です。
+
+
+File Name【gsm214r.zip】
+

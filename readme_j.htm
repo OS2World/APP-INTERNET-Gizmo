@@ -1,0 +1,551 @@
+<html>
+<head>
+<title>Gismo readme (Japanese)</title>
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" CHARSET="x-sjis">
+<body background="http://www.prettypop.net/software/graphic/readme_back.gif"
+ bgcolor="snow" text="midnightblue" link="mediumvioletred" vlink="mediumvioletred">
+
+<center>
+    <font color="blick" size=7>
+    Gismo
+    </font><br>
+    <font size=4 color="darkgoldenrod">
+    HTML color coordinating utility
+    </font>
+    <p>
+    <font size=2>
+    Copyright &copy; 1996-2000 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:kinop@sakura.email.ne.jp">
+    kinop@sakura.email.ne.jp
+    </a><br>
+    </font>
+</center>
+<p>
+
+<hr>
+<p>
+
+<center>
+<font size=3>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+</a>
+<br>
+<a href="readme_e.htm">
+Gismo readme, English version
+</a>
+</font>
+</center>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Gismo
+</i></font>
+<ul>
+    GismoはHomepage作成の際にあると便利なHTML Color Coordinating Utilityです。
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+インストール
+</i></font>
+<p>
+<ul>
+    <br>
+    適当なディレクトリに解凍してください。
+    <br>
+    GismoはVX-REXXで作成されていますので、実行にはVX-REXXのRuntime Library `VROBJ.DLL'が必要となります。
+    `VROBJ.DLL'は下記をクリックするかまたはBBSやOS/2の雑誌等から入手することができます。
+    <p>
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+使用方法
+</i></font>
+<p>
+<ul>
+    使用方法はとても簡単です。
+    まず、Color Listから色の名称を選択するか、RGBの各Sliderを使用して必要な色を作成します。
+    `Copy' buttonを押すと選択した色の名称またはRGB値（`#'が先頭につきます）がクリップボードにコピーされます。
+    コピーされたデータを使用しているEditor上にPasteします。
+    <p>
+    <ol>
+        <li type=a>
+        使用するColor Groupを下記から選択します。初期値は`Color Name'です。
+        各Color Groupに関しては下記Homepageを参照してください。
+        <p>
+
+        <ol>
+            <li type=a>
+            Color Name
+            <ul>
+                <li type=disc>
+                <a href="http://search.netscape.com/comprod/products/navigator/version_2.0/script/script_info/colors.html">
+                Color values</a>
+            </ul>
+            <li type=a>
+            216 Color Palette (6x6x6)
+            <ul>
+                <li type=disc>
+                <a href="http://help.netscape.com:80/kb/client/960513-14.html">
+                Netscape Navigator's color palette on Windows</a>
+            </ul>
+        </ol>
+        <p>
+
+        <li type=a>
+        クリップボードにコピーされる値を色の名称にするかRGB値かは`RGB/Name' radio buttonで設定します。
+        <p>
+
+        <li type=a>
+        RGB Sliderを使用して色を作成した場合は`Name'が設定されていてもRGB値がクリップボードにコピーされます。
+        <p>
+
+        <li type=a>
+        RGB各色をRGB Slider下のSpin Buttonで細かな調整をすることができます。
+        <p>
+
+        <li type=a>
+        `Always Copy'機能がEnable時には色が選択される度にデータがクリップボードにコピーされます。
+        <p>
+
+        <li type=a>
+        `Fore'と`Back' radio buttonを切り替える事により文字の前景色・背景色の組み合わせを試す事ができます。
+        <p>
+
+        <li type=a>
+        `Tag Template'で色指定を含んだ定型TAGを指定することができます。
+        <p>
+        <ul>
+            <li type=disc>
+            `%c'で色の名前/RGB値を指定します。<br>
+            現在選択されている色が
+            <font color="darkseagreen"><b>
+            darkseagreen
+            </b></font>
+            の場合...
+            <p>
+            <ul>
+                <table border=1>
+                    <tr>
+                        <th>Tag Template</th><th>Copied Tag         </th>
+                    </tr><tr>
+                        <td>%c          </td><td>darkseagreen       </td>
+                    </tr><tr>
+                        <td>color="%c"  </td><td>color="darkseagreen"</td>
+                    </tr>
+                </table>
+            </ul>
+            <p>
+
+            <li type=disc>
+            `%f'でForeground, `%b'でBackgroundで選択された色の名前/RGB値を指定します。<br>
+            現在選択されている色が
+            Foreground :
+            <font color="royalblue"><b>
+            royalblue
+            </b></font>/
+            Background :
+            <font color="mediumvioletred"><b>
+            mediumvioletred
+            </b></font>
+            の場合...
+            <p>
+            <ul>
+                <table border=1>
+                    <tr>
+                        <th>Tag Template</th><th>Copied Tag         </th>
+                    </tr><tr>
+                        <td>%f          </td><td>royalblue</td>
+                    </tr><tr>
+                        <td>%b          </td><td>mediumvioletred</td>
+                    </tr><tr>
+                        <td>forecolor="%f" backcolor="%b"  </td><td>forecolor="royalblue" backcolor="mediumvioletred"</td>
+                    </tr>
+                </table>
+            </ul>
+            <p>
+
+            <li type=disc>
+            [登録の方法]
+            <ol>
+                <li>
+                `New' Buttonを押す。
+                <li>
+                Tag Areaに新規Tagを記述します(下の欄にコピーされるTAGが表示されます)。
+                <li>
+                `Add' Buttonを押す。
+            </ol>
+            <p>
+
+            <li type=disc>
+            [削除の方法]
+            <ol>
+                <li>
+                削除したいTag Templateを選択する。
+                <li>
+                `Delete' Buttonを押す。
+            </ol>
+            <p>
+
+            <li>
+            [Movable/Fixedの設定]
+            <ol>
+                Tag Template WindowをMovableにするには`Movable' check boxをチェックします。
+            </ol>
+        </ul>
+        <p>
+
+        <li type=a>
+        Color Listの順番をName/Hue/Saturation/ValueでSortすることができます。
+        <p>
+
+        <li type=a>
+        Color Grid Tableについて
+        <p>
+        <ul>
+            <li type=disc>
+            Color Grid Table機能を利用することにより、色の選択がより便利になります。
+            <li type=disc>
+            `G' Buttonを押すと現在選択されている色を基準にしたGradation TableがColor Grid Table上に表示されます。
+        </ul>
+        <p>
+
+        <li type=a>
+        Color NumberをHexadecimal(16進数)とDecimal(10進数)で表示することができます。
+        <p>
+        <ul>
+            <li type=disc>
+            `Hex/Dec Changeover Button' check boxをチェックするとHex/Dec切り替えButtonが表示されます。
+        </ul>
+        <p>
+
+        <li type=a>
+        `RGB Slider Color' radio buttonでColor SliderのRibbonの色の変化(Dynamic/Fixed)を設定することができます。
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+動作条件・動作確認
+</i></font>
+<ul>
+    <li>
+    OS/2 Warp 4
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+転載・再配布の条件
+</i></font>
+<ul>
+    転載・再配布は基本的に自由ですが、事前に作者に許可を取ってください。<br>
+    また、転載。再配布の際にはオリジナルの配布形態を改変しないでください。<br>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+シェアウェア登録
+</i></font>
+<ul>
+    このソフトはシェアウェア(600円/$5US)です。
+    継続して利用される場合は、充分な動作確認の上、下記の方法で送金をお願いします。
+    送金確認後、１週間以内にKeyを送付いたします。
+    １週間が過ぎても解除キーが届かない場合は、お手数ですがMailでご確認ください。
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.bmtmicro.com">
+        BMT Micro</a>
+        <p>
+        <ol>
+            <li type=a>
+            <a href="http://www.bmtmicro.com/BMTCatalog/multipleos/gismo.html">
+            BMT Micro Catalog - Gismo</a>
+
+            <li type=a>
+            <a href="https://secure.bmtmicro.com/ECommerce-OnSite/35301.html">
+            BMT Micro ECommerce-OnSite - Gismo</a>
+
+            <li type=a>
+            <a href="bmtmicro.txt">
+            Offline Order Form</a>
+        </ol>
+        <p>
+
+        <li>
+        <a href="http://www.vector.co.jp/index.html">
+        Vector Software PACK</a>
+        <p>
+        <ol>
+            VECTORのシェアレジにて送金を行います。
+            <p>
+            <ol>
+                <font color="indianred">
+                作品番号 : SR004273
+                </font>
+            </ol>
+            <p>
+            シェアレジは下記よりご利用ください。
+            <p>
+            <ol>
+                <li type = a>
+                <a href="sharereg.htm">
+                ベクター・シェアレジの使い方</a> (LOCAL FILE)
+
+                <li type = a>
+                <a href="http://www.vector.co.jp/swreg/swreg.html">
+                ようこそシェアレジへ</a>
+            </ol>
+        </ol>
+    </ul>
+</ul>
+<p>
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+使用上の注意
+</i></font>
+<ul>
+    <font color="red">
+    作者はこのソフトの使用によって生じたいかなる損害にもその責任を負いません。
+    また一切保証は致しません。予めご了承願います。
+    </font>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+著作権
+</i></font>
+<ul>
+    このソフトウェアの著作権は作者にあります。
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+ご意見・ご感想・バグ・レポート
+</i></font>
+<ul>
+    ご意見・ご感想・バグレポートは下記までお願いします。
+    <p>
+
+    <ul>
+        <li>
+        <a href="mailto:kinop@sakura.email.ne.jp">
+        Ken Kinoshita &ltkinop@sakura.email.ne.jp&gt
+        </a>
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Pretty Pop Software Home Page
+</i></font>
+<ul>
+    最新のファイルと情報はすべて下記Homepageにあります。
+    <p>
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/">
+        PrettyPop.net</a>
+        </a>
+    </ul>
+</ul>
+
+<p>
+<hr>
+<font size=4 color="mediumpurple"><i>
+謝辞
+</i></font>
+<ul>
+    <table>
+        <tr>
+            <td colspan=3>
+                Special thanks to...
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://y7.net/u/ri.html">
+                Tetsuya Suto</a>
+            </td>
+            <td>:</td>
+            <td>
+                Japanese & English Readme
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://homepages.muenchen.org/bm612973/">
+                Robert Boeck</a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Hue/Name/Saturation/Value Sort' & `Color Grid Table' function idea and code...
+            </td>
+        </tr>
+    </table>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+変更履歴
+</i></font>
+<ul>
+    <b>Version 1.00</b> (13.Jan.1997)
+    <ol>
+        <li type=a>
+        公開バージョン
+    </ol>
+
+    <p>
+    <b>Version 1.01</b> (14.Jan.1997)
+    <ol>
+        <li type=a>
+        Tune up.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (02.Mar.1997)
+    <ol>
+        <li type=a>
+        文字の前景・背景で色の組み合わせを判断できるように仕様変更。
+        <li type=a>
+        その他、細かい修正・変更。
+    </ol>
+    <p>
+
+    <b>Version 1.20</b> (13.Jun.1997)
+    <ol>
+        <li type=a>
+        Tag Template機能の追加。
+        <li type=a>
+        WindowのFontを変更できるように仕様変更。
+        <li type=a>
+        前回使用した設定を保存するように仕様変更(Fore/Back Radio Button, 前景・背景の色)。
+    </ol>
+    <p>
+
+    <b>Version 1.50</b> (22.Feb.1998)
+    <ol>
+        <li type=a>
+        Color Listの順番をName/Hue/Saturation/ValueでSortする機能追加。
+        <li type=a>
+        不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 1.51</b> (01.Mar.1998)
+    <ol>
+        <li type=a>
+        Slider Ribbonの色が変わらないようにするオプションの追加。
+        <li type=a>
+        その他、細かい修正・変更。
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (04.Apr.1998)
+    <ol>
+        <li type=a>
+        Color Grid Table機能の追加。
+        <li type=a>
+        Tag Templateの機能強化。
+        <li type=a>
+        Sharewareになりました。
+    </ol>
+    <p>
+
+    <b>Version 2.05</b> (19.Apr.1998)
+    <ol>
+        <li type=a>
+        Color Numberの表示をDecimal(10進数)でも表示できるように仕様変更。
+        <li type=a>
+        Unregistered Versionで起動時にSortが正しくされない不具合を修正。
+        <li type=a>
+        `G' Buttonのフォントが変更されない不具合を修正。
+    </ol>
+    <p>
+
+    <b>Version 2.10</b> (08.Aug.1998)
+    <ol>
+        <li type=a>
+        Tag Templateを移動可能に出来るように仕様変更。
+        <li type=a>
+        Hex/Dec Changeover Buttonの追加。
+        <li type=a>
+        Minimized Buttonを表示するように仕様変更。
+        <li type=a>
+        Netscape 216 Color(6x6x6)に対応。
+        <li type=a>
+        Color Spin Buttonの追加。
+        <li type=a>
+        その他、細かい修正・変更。
+    </ol>
+    <p>
+
+    <b>Version 2.11</b> (01.Oct.1998)
+    <ol>
+        <li type=a>
+        不具合の修正。
+    </ol>
+    <p>
+
+    <b>Version 2.12</b> (26.Sep.1999)
+    <ol>
+        <li type=a>
+        Tuning.
+        <li type=a>
+        その他、細かい仕様変更・不具合の修正等。
+    </ol>
+    <p>
+
+    <b>Version 2.13</b> (11.Dec.1999)
+    <ol>
+        <li type=a>
+        細かいFont仕様の変更。
+    </ol>
+    <p>
+
+    <b>Version 2.14</b> (04.Jan.2000)
+    <ol>
+        <li type=a>
+        一部のGUIとFONTの不具合を修正。
+        <li type=a>
+        その他、細かい仕様変更等。
+    </ol>
+</ul>
+<font color="papayawhip">
+
+</body>
+</html>
+

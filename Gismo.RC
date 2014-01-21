@@ -1,0 +1,8 @@
+/*
+ * Colors resource file
+ *
+ */
+bitmap 120 ratt.bmp
+bitmap 122 ken.bmp
+
+icon 140 ratt.ico

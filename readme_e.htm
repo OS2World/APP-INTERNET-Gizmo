@@ -1,0 +1,523 @@
+<html>
+<head>
+<title>Gismo readme (English)</title>
+</head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html" CHARSET="latin1">
+<body background="http://www.prettypop.net/software/graphic/readme_back.gif"
+ bgcolor="snow" text="midnightblue" link="mediumvioletred" vlink="mediumvioletred">
+
+<center>
+    <font color="blick" size=7>
+    Gismo
+    </font><br>
+    <font size=4 color="darkgoldenrod">
+    HTML color coordinating utility
+    </font>
+    <p>
+    <font size=2>
+    Copyright &copy; 1996-2000 Ken Kinoshita, Pretty Pop Software
+    <br>
+    e-mail :
+    <a href="mailto:kinop@sakura.email.ne.jp">
+    kinop@sakura.email.ne.jp
+    </a><br>
+    </font>
+</center>
+<p>
+
+<hr>
+<p>
+
+<center>
+<a href="http://www.prettypop.net/">
+PrettyPop.net</a>
+<br>
+<a href="readme_j.htm">
+Gismo readme, Japanese version
+</a>
+</center>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Gismo
+</i></font>
+<ul>
+    Gismo is the unique color coordinating utility for those who uses editors to make html documents with various color
+    <font color="red">R</font><font color="green">G</font><font color="blue">B</font>
+    codes.
+    You may copy the
+    <font color="red">R</font><font color="green">G</font><font color="blue">B</font>
+    codes which indicated in Gismo to the  Clipboard and copy it into the appropriate form in your html documents.
+    You may use your favorite text editors and/or html editors.
+    The Gismo can be worked with any editors that can be correspondent with the clipboards.
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Easy Installation.
+</i></font>
+<ul>
+    Unzip the Gsm???r.Zip to your optional directory and type `Gismo' from the
+    directory which unzipped Gismo.Exe and document files are existed.
+    <p>
+    It's also good idea to make the appropriate `Gismo' program icon onto your Desktop.
+    Drag the program to any places in your desktop and appoint your `Gismo.Exe` by full path in the program path of its Property Note.
+    Name Gismo, i.e. in the Icon page of the Property Note.
+    Double-Click the Icon and Gismo is ready for your colors!!
+    <p>
+    This OS/2 application requires VROBJ.DLL, the runtime module from Watcom VX-REXX.
+    <br>
+    You can get a copy from...
+    <p>
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/software/runtime/vrobj21d.zip">
+        Download VROBJ.DLL 2.1d (vrobj21d.zip)</a>
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+The Use of Gismo:
+</i></font>
+<ul>
+    The Gismo works as you feel.<br>
+    You may choose your target color from the `ColorList' or choose it from
+    the one you make by the combination of moving up-down the `RGB Sliders`.
+    Click the `Copy' button.  Now you have the headed "#" with RGB codes
+    such as "#000000"(Black) for instance, on your Clipboard.
+    Then you can paste such clipboarded data to the place you want to, in
+    your editing html documents.
+    <p>
+    <ol>
+        <li type=a>
+        You may also choose to copy specific color by name other than
+        RGB codes by checking the radio button of the `Name'.
+        <p>
+
+        <li type=a>
+        However, you may only have the data by RGB codes even the `Name' button is checked,
+        when you choose the color made by the `RGB Sliders' and `RGB Spin Button'.
+        <p>
+
+        <li type=a>
+        Also try checking the `Always Copy' and you will ALWAYS have
+        the color  data in your Clipboard without clicking the `Copy' button.
+        <p>
+
+        <li type=a>
+        You may use `Tag Template' to choose the appropriate html tag with the color code.
+        <p>
+        <ul>
+            <li type=disc>
+            `%c' will set the name of the color or the color code in the RGB.
+            Let's say, you choose the
+            <font color="darkseagreen"><b>
+            darkseagreen
+            </b></font>
+            for instance,
+            <p>
+            <ul>
+               <table border=1>
+                   <tr>
+                       <th>Tag Template</th><th>Copied Tag</th>
+                   </tr><tr>
+                       <td>%c</td><td>darkseagreen</td>
+                   </tr><tr>
+                       <td>color="%c"</td><td>color="darkseagreen"</td>
+                   </tr>
+                </table>
+            </ul>
+            <p>
+
+            <li type=disc>
+            `%f' allows you the ColorName/RGB of the `Foreground' and,
+            `%b' allows you the ColorName/RGB of the `Background'.
+            For instance,
+            you are choosing the
+            <font color="royalblue"><b>
+            royalblue
+            </b></font>
+            for  your foreground, and
+            also choosing the
+            <font color="mediumvioletred"><b>
+            mediumvioletred
+            </b></font>
+            for your background, say,
+            <p>
+            <ul>
+                <table border=1>
+                    <tr>
+                        <th>Tag Template</th><th>Copied Tag         </th>
+                    </tr><tr>
+                        <td>%f          </td><td>royalblue</td>
+                    </tr><tr>
+                        <td>%b          </td><td>mediumvioletred</td>
+                    </tr><tr>
+                        <td nowrap>forecolor="%f" backcolor="%b"  </td><td nowrap>forecolor="royalblue" backcolor="mediumvioletred"</td>
+                    </tr>
+                </table>
+            </ul>
+            <p>
+
+            <li type=disc>
+            [Adding New Tags]
+            <ol>
+               <li type=i>
+               Click the `New' button.
+               <li type=i>
+               Type an new desired html tag.
+               You will see the tag which you typed in the undersigned dialog.
+
+               <li type=i>
+               Click the `Add' button.
+               <li type=i>
+               Repeat above procedure for adding more new tags.
+            </ol>
+            <p>
+
+            <li type=disc>
+            [Delete registered tags]
+            <ol>
+               <li type=i>
+               Choose the unwanted tags in the registered tag lists.
+               <li type=i>
+               Click the `Delete' button.
+               <li type=i>
+               Repeat above procedure if you have more than one.
+            </ol>
+        </ul>
+        <p>
+
+        <li type=a>
+        You may sort those color lists by the orders in such as:
+        <p>
+        <ul>
+            <li type=disc>
+            Name/Hue/Saturation/Value
+        </ul>
+        <p>
+
+        <li type=a>
+        Color Grid Table
+        <p>
+        <ul>
+            <li type=disc>
+            `G' button allows you the Gradation Table in Color Grid Table.
+        </ul>
+        <p>
+
+        <li type=a>
+        You may choose <b>indicated</b> color number type from Hexadecimal and Decimal.
+    </ol>
+    <p>
+
+    Ready?!<br>
+    Make your cool pages and let me visit!!
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Working Conditions:
+</i></font>
+<ul>
+    <li>
+    OS/2 Warp V4
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+DISTRIBUTION
+</i></font>
+<ul>
+   Please ask a written consent of the author before distributing this software in any manner.
+   You may not modify Gismo in any way nor may you reverse assemble,
+   reverse compile, or otherwise translate or reverse engineer its executable codes or datas.
+
+</ul>
+<p>
+
+
+<font size=4 color="mediumpurple"><i>
+Registration information
+</i></font>
+<ul>
+    This is a shareware version.
+    The registration cost is 5.00US$.
+    <p>
+
+    For registration:
+    <br>
+    If you like this software,
+    please transfer your payment by undersigned method
+    after making the sufficient evaluation of this software.
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.bmtmicro.com/">
+        BMT Micro</a>
+        <ol>
+            <li type=a>
+            <a href="http://www.bmtmicro.com/BMTCatalog/multipleos/gismo.html">
+            BMT Micro Catalog - Gismo</a>
+
+            <li type=a>
+            <a href="https://secure.bmtmicro.com/ECommerce-OnSite/35301.html">
+            BMT Micro ECommerce-OnSite - Gismo</a>
+
+            <li type=a>
+            <a href="bmtmicro.txt">
+            Offline Order Form</a>
+        </ol>
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+LICENSE AGREEMENT
+</i></font>
+<ul>
+    Gismo, its executable and documentation, is the copyrighted property of Ken Kinoshita.
+    It is licensed, not given, for your personal use.
+
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+WARRANTY
+</i></font>
+<ul>
+    <font color="red">
+    Gismo is provided AS IS. Use it at your own risk.
+    There are no warranties, express or implied, of any sort.
+    By use of this program, you agree to the terms and conditions as stated.
+    </font>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Reports
+</i></font>
+<ul>
+    <font color="darkgreen">
+    Email:
+    </font>
+    <ul>
+        <a href="mailto:kinop@sakura.email.ne.jp">
+        Ken Kinoshita &lt;kinop@sakura.email.ne.jp&gt;
+        </a>
+        <br>
+        Opinions, ideas, or bug reports are encouraged.
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Pretty Pop Software Home Page
+</i></font>
+<ul>
+    All latest files and information are available on...
+    <p>
+
+    <ul>
+        <li>
+        <a href="http://www.prettypop.net/">
+        PrettyPop.net</a>
+    </ul>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+Thanks to...
+</i></font>
+<ul>
+    <table>
+        <tr>
+            <td colspan=3>
+                Special thanks to...
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://y7.net/u/ri.html">
+                Tetsuya Suto</a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                Japanese & English Readme
+            </td>
+        </tr>
+        <tr>
+            <td nowrap>
+                <a href="http://homepages.muenchen.org/bm612973/">
+                Robert Boeck</a>
+            </td>
+            <td>:</td>
+            <td nowrap>
+                `Hue/Name/Saturation/Value Sort' & `Color Grid Table' function
+            </td>
+        </tr>
+    </table>
+</ul>
+<p>
+
+
+<hr>
+<font size=4 color="mediumpurple"><i>
+History
+</i></font>
+<ul>
+    <b>Version 1.00</b> (13.Jan.1997)
+    <ol>
+        <li type=a>
+        This is first version.
+    </ol>
+    <p>
+
+    <b>Version 1.01</b> (14.Jan.1997)
+    <ol>
+        <li type=a>
+        Tune up.
+    </ol>
+    <p>
+
+    <b>Version 1.10</b> (02.Mar.1997)
+    <ol>
+        <li type=a>
+        The specification were now changed to be able to look the combination
+        of the foreground color with the background color of the letteres.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 1.20</b> (13.Jun.1997)
+    <ol>
+        <li type=a>
+        Added the `Tag Template' function which allows you to coordinate
+        the color tag with various html tag script.
+        <li type=a>
+        Added the new function to change the fonts in the Gismo Windows.
+        <li type=a>
+        The Settings will be now recorded.
+        Fore/Back Radio Button for Fore/Back Colors.
+    </ol>
+    <p>
+
+    <b>Version 1.50</b> (22.Feb.1998)
+    <ol>
+        <li type=a>
+        Added new Sort Function.
+        In order to sort by the Name, Hue, Saturation or Value
+        <li type=a>
+        Fixed the minor inconveniences.
+    </ol>
+    <p>
+
+    <b>Version 1.51</b> (01.Mar.1998)
+    <ol>
+        <li type=a>
+        Added `Selectable Fixed/Dynamic Ribbon Color' option.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.00</b> (04.Apr.1998)
+    <ol>
+        <li type=a>
+        Added the `Color Grid Talbe'
+        <li type=a>
+        Region forced the `Tag Template'
+        <li type=a>
+        Became The SHAREWARE.
+    </ol>
+    <p>
+
+    <b>Version 2.05</b> (19.Apr.1998)
+    <ol>
+        <li type=a>
+        Became to indicate color number by both of Hexadecimal and Decimal.
+        <li type=a>
+        Fixed a problem that color list is not sorted correctly at startup (problem of unregistered version).
+        <li type=a>
+        Fixed the minor inconveniences.
+    </ol>
+    <p>
+
+    <b>Version 2.10</b> (08.Aug.1998)
+    <ol>
+        <li type=a>
+        Added Movable Tag Template Window Function.
+        <li type=a>
+        Added `Hex/Dec Changeover Button'.
+        <li type=a>
+        Enabled Minimized Window Button.
+        <li type=a>
+        Added switchable `Color Name' and `216 Color Palette(6x6x6)' Mode.
+        <li type=a>
+        Added `Color Spin Button'.
+        <li type=a>
+        Other minor parts were also modified.
+    </ol>
+    <p>
+
+    <b>Version 2.11</b> (01.Oct.1998)
+    <ol>
+        <li type=a>
+        Fixed minor bugs.
+    </ol>
+    <p>
+
+    <b>Version 2.12</b> (26.Sep.1999)
+    <ol>
+        <li type=a>
+        Tuning.
+        <li type=a>
+        Fixed the minor inconveniences.
+        <li type=a>
+        Changed the minor specification.
+    </ol>
+    <p>
+
+    <b>Version 2.13</b> (11.Dec.1999)
+    <ol>
+        <li type=a>
+        Changed minor Font specification.
+    </ol>
+    <p>
+
+    <b>Version 2.14</b> (04.Jan.2000)
+    <ol>
+        <li type=a>
+        Fixed the minor inconveniences (some GUI and Font).
+        <li type=a>
+        Changed the minor specification.
+    </ol>
+</ul>
+<font color="papayawhip">
+
+</body>
+</html>
+

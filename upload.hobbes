@@ -1,0 +1,32 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: gsm214r.zip
+       Short Description: Gismo, HTML Color Coordinating Utility
+        Long Description: Gismo is the unique color coordinating utility for those who uses
+                          editors to make html documents with various color RGB codes.
+                          You may copy the RGB codes which indicated in Gismo to the  Clipboard
+                          and copy it into the appropriate form in your html documents.
+                          You may use your favorite text editors and/or html editors.
+                          The Gismo can be worked with any editors that can be corresondent with
+                          the clipboards.
+
+      Proposed directory
+           for placement: /pub/os2/apps/internet/www/util
+
+               Your name: Ken Kinoshita
+           Email address: kinop@sakura.email.ne.jp
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: http://prettypop.tsx.org/
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: Warp4
+ Additional requirements: Watcom VX-REXX Runtime (VROBJ.DLL)
+
+                Replaces: gsm213r.zip
+
+
